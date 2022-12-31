@@ -1,13 +1,9 @@
 import React from 'react';
-import {Text, TouchableOpacity} from 'react-native';
 import {
   createNativeStackNavigator,
   NativeStackNavigationOptions,
 } from '@react-navigation/native-stack';
-import MaterialCommunityIconsIcon from 'react-native-vector-icons/MaterialCommunityIcons';
-import DrawerNavigation from './drawer';
 import AddressScreen from '../screens/stack/addressScreen';
-import SearchLocationSection from '../screens/drawer/searchLocationSection';
 import Bottom from './bottom';
 
 const Stack = createNativeStackNavigator();

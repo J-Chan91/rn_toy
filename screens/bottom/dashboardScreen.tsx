@@ -1,12 +1,12 @@
 import React from 'react';
-import {SafeAreaView, StyleSheet, Text, View} from 'react-native';
+import {SafeAreaView, StyleSheet} from 'react-native';
+
+import LuckyNumberSection from '../../components/dashboardScreen/luckyNumberSection';
 
 export default function DashboardScreen() {
   return (
     <SafeAreaView style={styles.container}>
-      <View>
-        <Text>Dashboard</Text>
-      </View>
+      <LuckyNumberSection />
     </SafeAreaView>
   );
 }
@@ -14,6 +14,6 @@ export default function DashboardScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'black',
+    backgroundColor: '#fefefe',
   },
 });

@@ -56,7 +56,6 @@ const TabNavigatorOption = {
       },
       android: {
         height: 55,
-        // paddingBottom: 10,
       },
     }),
   },
